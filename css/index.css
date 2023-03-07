@@ -1,0 +1,31 @@
+body{
+    background-color: #fff;
+}
+
+.black_shadow{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.btn_google{
+    margin: 30px 5px;
+    background-color: #F8F9FA;
+    border-radius: 4px;
+    color: #505050;
+    cursor: pointer;
+    padding: 10px 0;
+    width: 90%;
+    min-height: 50%;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.btn_google:hover{
+    border: 1px solid #e7e7e7;
+}
